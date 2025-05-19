@@ -28,7 +28,7 @@ Missing data are identified with `-9999` and more information about the data can
 
 ### Important note about the data!
 
-There are many missing values in the `TAVG` column. For days where the `TAVG` values are missing, there was an additional task to calculate an estimate of the average daily temperature by averaging the `TMAX` and `TMIN` values (in a new column. **Note** don't replace the existing `TAVG` values with your estimates!)
+There are many missing values in the `TAVG` column. For days where the `TAVG` values are missing, there was an additional task to calculate an estimate of the average daily temperature by averaging the `TMAX` and `TMIN` values (in a new column but it should not replace the existing `TAVG` values with the estimates!)
 
 ## Instructions
 1. Read in the provided data file using pandas and convert missing data to NA values.
@@ -47,4 +47,4 @@ There are many missing values in the `TAVG` column. For days where the `TAVG` va
 6. Calculate seasonal temperature anomalies for each year
 7. Plot the data as shown in the example above
 
-The exercise is from the [Geopython course](https://geo-python-site.readthedocs.io/en/latest/course-info/course-info.html) by the department of geoscienses and Geography at thr University of Helsinki 
+**The exercise is from the [Geopython course](https://geo-python-site.readthedocs.io/en/latest/course-info/course-info.html) by the department of geoscienses and Geography at thr University of Helsinki**
